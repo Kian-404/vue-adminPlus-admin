@@ -9,7 +9,6 @@ const counter  = userCounterStore();
 
 <template>
   <h1>{{ msg }}</h1>
-  <Test/>
   <p>
     Recommended IDE setup:
     <a href="https://code.visualstudio.com/" target="_blank">VS Code</a>

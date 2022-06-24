@@ -1,9 +1,6 @@
 
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <el-button type="primary">hello</el-button>
-   <el-card shadow="always"> Always </el-card>
-  <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
+  <router-view></router-view>
 </template>
 
 <style>
