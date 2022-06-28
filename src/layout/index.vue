@@ -1,6 +1,7 @@
 <template>
-  <div>
-    test component
+  <div class="layout">
+    <header>header</header>
+    <router-view></router-view>
   </div>
 </template>
 
