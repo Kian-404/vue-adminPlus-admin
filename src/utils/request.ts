@@ -3,7 +3,7 @@ import { ElMessageBox, ElMessage} from 'element-plus'
 
 
 const service = axios.create({
-  baseURL: '',
+  baseURL: import.meta.env.VITE_BASE_API,
   timeout: 5000
 })
 
